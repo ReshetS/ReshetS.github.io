@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: ITsyndicate.Org Repository
+Label: ITODEB
+Architecture: amd64
+Description: Repository for ITsyndicate's packages

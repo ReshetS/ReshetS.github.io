@@ -1,0 +1,88 @@
+Package: check-mk-agent
+Version: 1.4.0p33-1
+Architecture: all
+Maintainer: feedback@check-mk.org
+Installed-Size: 89
+Priority: extra
+Section: alien
+Filename: pool/main/c/check-mk-agent/check-mk-agent_1.4.0p33-1_all.deb
+Size: 22166
+SHA256: 925a10208cdfcc5c75a9595d65b28bc4fcffd3e086628be4c8843b6e0b054bb6
+SHA1: 5274b3d66de07f04e9ec58b2cb1e9e380a0e95a3
+MD5sum: a14799802e87f9768ee2dc8c2418c802
+Description: Check_MK Agent for Linux
+ The Check_MK Agent uses xinetd to provide information about the system
+ on TCP port 6556. This can be used to monitor the host via Check_MK.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: check-mk-raw-1.2.6p10
+Version: 0.trusty
+Architecture: i386
+Maintainer: Check_MK Team <feedback@check-mk.org>
+Installed-Size: 143010
+Depends: debconf (>= 0.5) | debconf-2.0, time, traceroute, libsnmp-python, curl, dialog, dnsutils, fping, graphviz, libapache2-mod-fcgid, libapache2-mod-proxy-html, apache2-mpm-prefork, apache2-utils, libdbi1, libevent-1.4-2, libltdl7, libnet-snmp-perl, libpango1.0-0, libperl5.18, libreadline5, libsnmp-perl, libuuid1, libxml2, patch, rpm, binutils, php5-cli, php5-cgi, php5-gd, php5-mcrypt, php5-sqlite, php-pear, pyro, rsync, lcab, smbclient, snmp, unzip, xinetd, python-ldap, libradiusclient-ng2, libpcap0.8, libgsf-1-114, libglib2.0-0, python-reportlab, python-imaging, poppler-utils
+Homepage: http://mathias-kettner.de
+Priority: optional
+Section: admin
+Filename: pool/main/c/check-mk-raw-1.2.6p10/check-mk-raw-1.2.6p10_0.trusty_i386.deb
+Size: 41528766
+SHA256: 75b60cb218ec80c569585a672e47767720c5f756464d29c295248bbfb61a7cd4
+SHA1: 590add6d4586bd1554d1059d13cb39033c1d9f39
+MD5sum: 3b05d5807a33c4d76ea4aa3aa9705f9a
+Description: Check_MK is a full featured system monitoring
+ solution. This package ships with Check_MK, Nagios,
+ the Nagios plugins, Livestatus, Multisite,
+ PNP4Nagios, NagVis, and other addons. Please visit
+ http://mathias-kettner.de/.
+
+Package: jbilling
+Version: 4.20.0-1ubuntu1
+Architecture: all
+Maintainer: ITsyndicate <notify@itsyndicate.org>
+Installed-Size: 196216
+Depends: tomcat8
+Priority: optional
+Section: java
+Filename: pool/main/j/jbilling/jbilling_4.20.0-1ubuntu1_all.deb
+Size: 188652368
+SHA256: 7c8d5d0935b1637a57aabfef1ef7a4159cc5708e9bd11c2d1ce20ab3065e266c
+SHA1: 95426b41dd816061fbbd122a1d1394664d82dd87
+MD5sum: 635ff6ec826b6ad6309b9cba17331653
+Description: jBilling application
+
+Package: maldet
+Version: 1.5.0-0
+Architecture: all
+Maintainer: ITsyndicate Team <notify@itsyndicate.org>
+Homepage: http://www.rfxn.com/projects/linux-malware-detect/
+Priority: important
+Section: utils
+Filename: pool/main/m/maldet/maldet_1.5.0-0_all.deb
+Size: 489010
+SHA256: ade94c4ac1a0f6048211a8edc1d3516d7b28e7f4812ed6249ff296cccbdcb13d
+SHA1: 3bff7f6b1322f51982c7ee380fe4f57e8fce0d2c
+MD5sum: d652e6f8e6c4963a5cc0568a4ee27b77
+Description: malware scanner for Linux
+Depends: clamav
+
+Package: update-notifier-common
+Source: update-notifier
+Version: 0.99.3debian11+nmu1
+Architecture: all
+Maintainer: Julian Andres Klode <jak@debian.org>
+Installed-Size: 1265
+Depends: gettext-base, lsb-release, python, python-apt (>= 0.6.12)
+Recommends: libpam-modules (>= 1.0.1-9ubuntu3)
+Replaces: update-notifier (<< 0.75.1)
+Priority: optional
+Section: gnome
+Filename: pool/main/u/update-notifier/update-notifier-common_0.99.3debian11+nmu1_all.deb
+Size: 134974
+SHA256: 6b642c391b74b2a9311509771bbab5365a01c4b01d1408bb4bddeaea96caf6e5
+SHA1: 8f51205c0623be2957542393d883cff5de4ef42f
+MD5sum: 742a1f24733782951af43ee703a5560d
+Description: Files shared between update-notifier and adept
+ Apt setup files and reboot notification scripts shared between
+ update-notifier and adept-notifier.
+
