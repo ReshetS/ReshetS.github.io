@@ -1,147 +1,74 @@
 Package: check-mk-agent
-Version: 1.4.0p33-1
 Architecture: all
-Maintainer: feedback@check-mk.org
-Installed-Size: 89
+Version: 1.4.0p33-1
 Priority: extra
 Section: alien
+Maintainer: feedback@check-mk.org
+Installed-Size: 89
 Filename: pool/main/c/check-mk-agent/check-mk-agent_1.4.0p33-1_all.deb
 Size: 22166
-SHA256: 925a10208cdfcc5c75a9595d65b28bc4fcffd3e086628be4c8843b6e0b054bb6
-SHA1: 5274b3d66de07f04e9ec58b2cb1e9e380a0e95a3
 MD5sum: a14799802e87f9768ee2dc8c2418c802
+SHA1: 5274b3d66de07f04e9ec58b2cb1e9e380a0e95a3
+SHA256: 925a10208cdfcc5c75a9595d65b28bc4fcffd3e086628be4c8843b6e0b054bb6
+SHA512: 8c058ffa7e8fa84b4d740130995ae0c9dd954c339e5bf3a11176f5e4c870347a37dbec5a6463b3fe3ab708c51e0fb896f20f6772b9add1f534997935f114ab3f
 Description: Check_MK Agent for Linux
  The Check_MK Agent uses xinetd to provide information about the system
  on TCP port 6556. This can be used to monitor the host via Check_MK.
  .
  (Converted from a rpm package by alien version 8.95.)
 
-Package: check-mk-raw-1.2.6p10
-Version: 0.trusty
-Architecture: amd64
-Maintainer: Check_MK Team <feedback@check-mk.org>
-Installed-Size: 143769
-Depends: debconf (>= 0.5) | debconf-2.0, time, traceroute, libsnmp-python, curl, dialog, dnsutils, fping, graphviz, libapache2-mod-fcgid, libapache2-mod-proxy-html, apache2-mpm-prefork, apache2-utils, libdbi1, libevent-1.4-2, libltdl7, libnet-snmp-perl, libpango1.0-0, libperl5.18, libreadline5, libsnmp-perl, libuuid1, libxml2, patch, rpm, binutils, php5-cli, php5-cgi, php5-gd, php5-mcrypt, php5-sqlite, php-pear, pyro, rsync, lcab, smbclient, snmp, unzip, xinetd, python-ldap, libradiusclient-ng2, libpcap0.8, libgsf-1-114, libglib2.0-0, python-reportlab, python-imaging, poppler-utils
-Homepage: http://mathias-kettner.de
-Priority: optional
-Section: admin
-Filename: pool/main/c/check-mk-raw-1.2.6p10/check-mk-raw-1.2.6p10_0.trusty_amd64.deb
-Size: 41676174
-SHA256: 3303d6681090339196c5ef07074f4a565b7cf78c1e6015f2d24943e2f1c3cd31
-SHA1: ff219f0c8abaeda1ab3df518449c1db87365455c
-MD5sum: 0fb0f52d69b86f25c9f2098eff168e6d
-Description: Check_MK is a full featured system monitoring
- solution. This package ships with Check_MK, Nagios,
- the Nagios plugins, Livestatus, Multisite,
- PNP4Nagios, NagVis, and other addons. Please visit
- http://mathias-kettner.de/.
-
-Package: check-mk-raw-1.2.6p11
-Version: 0.trusty
-Architecture: amd64
-Maintainer: Check_MK Team <feedback@check-mk.org>
-Installed-Size: 143970
-Depends: debconf (>= 0.5) | debconf-2.0, time, traceroute, libsnmp-python, curl, dialog, dnsutils, fping, graphviz, libapache2-mod-fcgid, libapache2-mod-proxy-html, apache2-mpm-prefork, apache2-utils, libdbi1, libevent-1.4-2, libltdl7, libnet-snmp-perl, libpango1.0-0, libperl5.18, libreadline5, libsnmp-perl, libuuid1, libxml2, patch, rpm, binutils, php5-cli, php5-cgi, php5-gd, php5-mcrypt, php5-sqlite, php-pear, pyro, rsync, lcab, smbclient, snmp, unzip, xinetd, python-ldap, libradiusclient-ng2, libpcap0.8, libgsf-1-114, libglib2.0-0, python-reportlab, python-imaging, poppler-utils
-Homepage: http://mathias-kettner.de
-Priority: optional
-Section: admin
-Filename: pool/main/c/check-mk-raw-1.2.6p11/check-mk-raw-1.2.6p11_0.trusty_amd64.deb
-Size: 41670498
-SHA256: f5fc028fd6598f942555b2765ec4e6256d4224c7eed631c3854b4ad4edf02318
-SHA1: 6167f86005e363ac0cf2eebe9178df4b5e160d0a
-MD5sum: e974969a599f4cbe5c9c035bcb4a1762
-Description: Check_MK is a full featured system monitoring
- solution. This package ships with Check_MK, Nagios,
- the Nagios plugins, Livestatus, Multisite,
- PNP4Nagios, NagVis, and other addons. Please visit
- http://mathias-kettner.de/.
-
-Package: check-mk-raw-1.2.6p12
-Version: 0.trusty
-Architecture: amd64
-Maintainer: Check_MK Team <feedback@check-mk.org>
-Installed-Size: 143784
-Depends: debconf (>= 0.5) | debconf-2.0, time, traceroute, libsnmp-python, curl, dialog, dnsutils, fping, graphviz, libapache2-mod-fcgid, libapache2-mod-proxy-html, apache2-mpm-prefork, apache2-utils, libdbi1, libevent-1.4-2, libltdl7, libnet-snmp-perl, libpango1.0-0, libperl5.18, libreadline5, libsnmp-perl, libuuid1, libxml2, patch, rpm, binutils, php5-cli, php5-cgi, php5-gd, php5-mcrypt, php5-sqlite, php-pear, pyro, rsync, lcab, smbclient, snmp, unzip, xinetd, python-ldap, libradiusclient-ng2, libpcap0.8, libgsf-1-114, libglib2.0-0, python-reportlab, python-imaging, poppler-utils
-Homepage: http://mathias-kettner.de
-Priority: optional
-Section: admin
-Filename: pool/main/c/check-mk-raw-1.2.6p12/check-mk-raw-1.2.6p12_0.trusty_amd64.deb
-Size: 41675960
-SHA256: acce116db5de0932f032d5d7b4c813698a53c1a6f8c0d141db6d56f054738efe
-SHA1: 64d2f5613742a5000123eb8d74a5b8602845712b
-MD5sum: 89415b92c53e480d48d0426cb440bc69
-Description: Check_MK is a full featured system monitoring
- solution. This package ships with Check_MK, Nagios,
- the Nagios plugins, Livestatus, Multisite,
- PNP4Nagios, NagVis, and other addons. Please visit
- http://mathias-kettner.de/.
-
-Package: check-mk-raw-1.2.6p14
-Version: 0.trusty
-Architecture: amd64
-Maintainer: Check_MK Team <feedback@check-mk.org>
-Installed-Size: 144523
-Depends: debconf (>= 0.5) | debconf-2.0, time, traceroute, libsnmp-python, curl, dialog, dnsutils, fping, graphviz, libapache2-mod-fcgid, libapache2-mod-proxy-html, apache2-mpm-prefork, apache2-utils, libdbi1, libevent-1.4-2, libltdl7, libnet-snmp-perl, libpango1.0-0, libperl5.18, libreadline5, libsnmp-perl, libuuid1, libxml2, patch, rpm, binutils, php5-cli, php5-cgi, php5-gd, php5-mcrypt, php5-sqlite, php-pear, pyro, rsync, lcab, smbclient, snmp, unzip, xinetd, python-ldap, libradiusclient-ng2, libpcap0.8, libgsf-1-114, libglib2.0-0, python-reportlab, python-imaging, poppler-utils
-Homepage: http://mathias-kettner.de
-Priority: optional
-Section: admin
-Filename: pool/main/c/check-mk-raw-1.2.6p14/check-mk-raw-1.2.6p14_0.trusty_amd64.deb
-Size: 41822566
-SHA256: dc57250184ee9dc4d2aa6b4fd52e152010f507ea9b2db12759b6604ac167ad5e
-SHA1: a578f5f0abf1927e8eac5913f80636bc08f66054
-MD5sum: 7d76d7a74cd90b0eaa640ccbf01e5b2d
-Description: Check_MK is a full featured system monitoring
- solution. This package ships with Check_MK, Nagios,
- the Nagios plugins, Livestatus, Multisite,
- PNP4Nagios, NagVis, and other addons. Please visit
- http://mathias-kettner.de/.
-
-Package: jbilling
-Version: 4.20.0-1ubuntu1
+Package: check-mk-agent
 Architecture: all
-Maintainer: ITsyndicate <notify@itsyndicate.org>
-Installed-Size: 196216
-Depends: tomcat8
-Priority: optional
-Section: java
-Filename: pool/main/j/jbilling/jbilling_4.20.0-1ubuntu1_all.deb
-Size: 188652368
-SHA256: 7c8d5d0935b1637a57aabfef1ef7a4159cc5708e9bd11c2d1ce20ab3065e266c
-SHA1: 95426b41dd816061fbbd122a1d1394664d82dd87
-MD5sum: 635ff6ec826b6ad6309b9cba17331653
-Description: jBilling application
+Version: 1.4.0p37-1
+Priority: extra
+Section: alien
+Maintainer: feedback@check-mk.org
+Installed-Size: 88
+Filename: pool/main/c/check-mk-agent/check-mk-agent_1.4.0p37-1_all.deb
+Size: 21872
+MD5sum: 578e189313d9afae24dfd688302ce0db
+SHA1: 998285b4650fbc4188bf74ea8d5ca890835220b3
+SHA256: dd5289b40c405264953d07c25355c65c40c537c60b6d7e8e5aa811bac5845264
+SHA512: a0046a8008e46758d01b32b96cacb7f709e0bf69cd16962cd89f67ce48ee1abab7d7e6a8d1281d1912769e369358d79f46c59aaff083d4496910d53465980da0
+Description: Check_MK Agent for Linux
+ The Check_MK Agent uses xinetd to provide information about the system
+ on TCP port 6556. This can be used to monitor the host via Check_MK.
+ .
+ (Converted from a rpm package by alien version 8.95.)
 
 Package: maldet
-Version: 1.5.0-0
 Architecture: all
-Maintainer: ITsyndicate Team <notify@itsyndicate.org>
-Homepage: http://www.rfxn.com/projects/linux-malware-detect/
+Version: 1.5.0-0
 Priority: important
 Section: utils
+Maintainer: ITsyndicate Team <notify@itsyndicate.org>
+Depends: clamav
 Filename: pool/main/m/maldet/maldet_1.5.0-0_all.deb
 Size: 489010
-SHA256: ade94c4ac1a0f6048211a8edc1d3516d7b28e7f4812ed6249ff296cccbdcb13d
-SHA1: 3bff7f6b1322f51982c7ee380fe4f57e8fce0d2c
 MD5sum: d652e6f8e6c4963a5cc0568a4ee27b77
+SHA1: 3bff7f6b1322f51982c7ee380fe4f57e8fce0d2c
+SHA256: ade94c4ac1a0f6048211a8edc1d3516d7b28e7f4812ed6249ff296cccbdcb13d
+SHA512: 5e5f8cbf8fc9aa95d5b71bbe7d7478309ffe7a696ab600d08e84d33cec0aae2fe02614ce4f1edc1b8187d8d49fcc8cb03f138eee0cb6820c68834d4366738f2f
+Homepage: http://www.rfxn.com/projects/linux-malware-detect/
 Description: malware scanner for Linux
-Depends: clamav
 
 Package: update-notifier-common
-Source: update-notifier
-Version: 0.99.3debian11+nmu1
 Architecture: all
+Version: 0.99.3debian11+nmu1
+Priority: optional
+Section: gnome
+Source: update-notifier
 Maintainer: Julian Andres Klode <jak@debian.org>
 Installed-Size: 1265
 Depends: gettext-base, lsb-release, python, python-apt (>= 0.6.12)
 Recommends: libpam-modules (>= 1.0.1-9ubuntu3)
 Replaces: update-notifier (<< 0.75.1)
-Priority: optional
-Section: gnome
 Filename: pool/main/u/update-notifier/update-notifier-common_0.99.3debian11+nmu1_all.deb
 Size: 134974
-SHA256: 6b642c391b74b2a9311509771bbab5365a01c4b01d1408bb4bddeaea96caf6e5
-SHA1: 8f51205c0623be2957542393d883cff5de4ef42f
 MD5sum: 742a1f24733782951af43ee703a5560d
+SHA1: 8f51205c0623be2957542393d883cff5de4ef42f
+SHA256: 6b642c391b74b2a9311509771bbab5365a01c4b01d1408bb4bddeaea96caf6e5
+SHA512: 103428369521af1e296c06aef42dd78ce49cac0ef0555fa864ba07e2aef8db4b99583c5f8ac3f4ee0e6ac76d4c9eed4d163f68d329c9aa5d4367ca256cb10aef
 Description: Files shared between update-notifier and adept
  Apt setup files and reboot notification scripts shared between
  update-notifier and adept-notifier.

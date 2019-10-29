@@ -5,39 +5,50 @@ Origin: ITsyndicate.Org Repository
 Label: ITODEB
 Suite: stable
 Codename: stable
-Date: Wed, 30 May 2018 14:10:12 UTC
+Date: Tue, 29 Oct 2019 20:06:09 +0000
 Architectures: i386 amd64
 Components: main
 Description: Repository for ITsyndicate's packages
 MD5Sum:
- f128e747b0bf2311b8c8fd6309f0359f 3653 main/binary-i386/Packages
- 931136e0f279b7e9c6f2188cf854db56 1787 main/binary-i386/Packages.gz
- 7801ee89e50bf0afb81677ed6f5addb1 151 main/binary-i386/Release
- 950790ffeb0896293841b4869af854cd 7555 main/binary-amd64/Packages
- 8b45816b436068ecfc8149582b077829 2163 main/binary-amd64/Packages.gz
- 679c998eb439507b0e1357207ec9d6cb 152 main/binary-amd64/Release
+ 369610cd3533d8260f73caba74970bff               38 dists/stable/Release
+ 4d46156e4137e16a1398b7c229e775d0             3073 dists/stable/main/binary-amd64/Packages
+ 7073a9b6d8f6fefded151efa518174fc             1471 dists/stable/main/binary-amd64/Packages.gz
+ 679c998eb439507b0e1357207ec9d6cb              152 dists/stable/main/binary-amd64/Release
+ 4d46156e4137e16a1398b7c229e775d0             3073 dists/stable/main/binary-i386/Packages
+ 0b9ad2193441ff23fd83c71dfb919921             1471 dists/stable/main/binary-i386/Packages.gz
+ 7801ee89e50bf0afb81677ed6f5addb1              151 dists/stable/main/binary-i386/Release
 SHA1:
- 3e0cc64f2650eb4b92f9e7cbc828687300d9c59f 3653 main/binary-i386/Packages
- aa73f7d3de42ffce4e45c4d731b753845b5f2b6c 1787 main/binary-i386/Packages.gz
- a8ff918ce5a3dd4e33cfe8846394ca59cced9415 151 main/binary-i386/Release
- 71ba4a9db7b332eee63887098b0e7bd83cacaad0 7555 main/binary-amd64/Packages
- 8b16533a676073d14cc9c392a4c4fc680a1c1113 2163 main/binary-amd64/Packages.gz
- 573b5ac5931b99ee92b7bf93ee8601976c9f7bc0 152 main/binary-amd64/Release
+ f1dd3019ca5de835a8bca278c54606e19a009145               38 dists/stable/Release
+ 58f531a1ecec934520028cf1fd03ce26bc27c24f             3073 dists/stable/main/binary-amd64/Packages
+ 8b0af2f03568b903c27cdb35b15c6d4f4dc9a7eb             1471 dists/stable/main/binary-amd64/Packages.gz
+ 573b5ac5931b99ee92b7bf93ee8601976c9f7bc0              152 dists/stable/main/binary-amd64/Release
+ 58f531a1ecec934520028cf1fd03ce26bc27c24f             3073 dists/stable/main/binary-i386/Packages
+ 67f0133389eae24751f479c0888378085e21238e             1471 dists/stable/main/binary-i386/Packages.gz
+ a8ff918ce5a3dd4e33cfe8846394ca59cced9415              151 dists/stable/main/binary-i386/Release
 SHA256:
- 718ff7524c1f59326f4de8861714254b21255fe85600666bafefe1a878f2d035 3653 main/binary-i386/Packages
- 7eed2814b3d4a0dd5b7794a345d778225534caf33beb07ddbf9c81cc090d59a4 1787 main/binary-i386/Packages.gz
- b76e77c4c142083eb859906211e28753c0b717588f9a7929e9752e4b6d451a64 151 main/binary-i386/Release
- 942fe3d268f27479b4dfd0206ad9605a394c0e2f0bc252e632f04d836a73a760 7555 main/binary-amd64/Packages
- e1e52aef1627831eee3f65edae3143ded8bf9b6df612e1998d84130012955b33 2163 main/binary-amd64/Packages.gz
- b291519bbc4a4c4326a5aa7eeced4ec2a2199378ccbf0124e1c06064bc6ea9b5 152 main/binary-amd64/Release
+ 4e90e1b69d78ff995e4ce29d334712ef28b3886557ad249007dfd73b88330b42               38 dists/stable/Release
+ f34a542774aa679b37fbce575a112ba18de7ae377313aa102f10df11316b3add             3073 dists/stable/main/binary-amd64/Packages
+ ac698944049730497a1f7d42af420bac9afd9c3b9173c4024934777431219358             1471 dists/stable/main/binary-amd64/Packages.gz
+ b291519bbc4a4c4326a5aa7eeced4ec2a2199378ccbf0124e1c06064bc6ea9b5              152 dists/stable/main/binary-amd64/Release
+ f34a542774aa679b37fbce575a112ba18de7ae377313aa102f10df11316b3add             3073 dists/stable/main/binary-i386/Packages
+ d1024ba19cdc23c746e953c8006abb054b48e5fea8b8772118e3c5bdf78aa4bd             1471 dists/stable/main/binary-i386/Packages.gz
+ b76e77c4c142083eb859906211e28753c0b717588f9a7929e9752e4b6d451a64              151 dists/stable/main/binary-i386/Release
+SHA512:
+ 5dcffbc75cc600def5918af9fd6c22809930be5705c40d246db4e84b2f17927ace076d864920feca64aa251a3d953169f2b0876f4287d7af7c4edd7b08c8a520               38 dists/stable/Release
+ e9687044ab8a7b446a37007293db7599ae9bd94491474cd291d0a07c14ee5d8be632f8f7edc0aaf521494fb611d2c772fcc921ae1c6b11394ee36fcc770dacc7             3073 dists/stable/main/binary-amd64/Packages
+ f1f7cc39526a5327124c3ca472c863d8ad01322b45b581dc90be7c60d77252f8c8d04f15acc618369baf504ce8c7b76fd0ee7dd4d1995d845ff38db55c688ef9             1471 dists/stable/main/binary-amd64/Packages.gz
+ 10c952e9b024a1d38cfaa57a60faaca1f8a85babe8d27722f9770ffc1a5174decc74e8ed39a83474d2924572c054a2d1746bdeca48b517d4d20e86de4dfece11              152 dists/stable/main/binary-amd64/Release
+ e9687044ab8a7b446a37007293db7599ae9bd94491474cd291d0a07c14ee5d8be632f8f7edc0aaf521494fb611d2c772fcc921ae1c6b11394ee36fcc770dacc7             3073 dists/stable/main/binary-i386/Packages
+ 8509d010df952cd5eda1e7eac50774343e68d2ee5f4e547ad63c563fe2dd2cb8e69583609f72f1b6fc0d7b1afd3789f3356a08a67f3699e9c09bfd1c9987b199             1471 dists/stable/main/binary-i386/Packages.gz
+ a98e93e4ded09ee59cb0b64c2a3035df495fc82128d147a45ff5b016675daff7079e71dd24bdcbb852459510a7cddbe4cae3318f08fd99c61159cb16c008a8f3              151 dists/stable/main/binary-i386/Release
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1
 
-iQEcBAEBCAAGBQJbDrDHAAoJEBChTLjNAOM9LqkIAJ9XC9KjRwsgFp4neJ2oZ7nR
-6ivlZzn0qOJYBT8+ePWaU2G2WS5LS7itq+7o6A1MpVD6wXwIm8KGuefQrd12JnXr
-ZA2kldpkTYppIOwjv4nf911eTC9B+E8vwMM9BCwsNKpPgSR9vyUPiIma0jEShdjI
-xm2n4X6daulM+1PClG8IBNQgpOOZdDpRsIWqKudrSJiwkp9kG7BXtm4d3NYFrHyd
-SgNEu1I6H3XE0HZZriQ2BayTJgVexvDf+LplFYEKMPcHMbys1Ws8AcGyKVHNav2i
-4omTmgCPFLPUauY8NwZLaEB3brN+dejCmt7cssxdepPuaAYutqAy138o2izAjvM=
-=2Iej
+iQEzBAEBCAAdFiEEI7yeMdFqUKWfwzlAEKFMuM0A4z0FAl24n7gACgkQEKFMuM0A
+4z0bEgf/d42375GN13LanYI9GnTJgkrP8mmKqp2Lq9czLOL5Cct8yNfokSb65VGb
+iCtiGjDp4TiksVvXRyfdA44Uru+c4PiaC2c3Vme9m6C4mDp7citMASEq+pLouJHd
+Myyi9mZZCYQrDCAE65RmoIY+1xZ/CUDCJe9tLY+OYcDhASEY+QJ1Ze/LrZh6BzOu
+eopix2BOkllAK52Z70q9n8hEpPugwbApeAn6nnYw9rTfQRMflF0Ik87OI+wUez27
+0DrHpO9XIhQ2G5acjITU06/0Ab8xBxXMgflcd0ihM61S92vSZfYBmf/n4mZzVVqO
+t4tX1IFteK4f+TagSpugR3b4nOyXGw==
+=dUCm
 -----END PGP SIGNATURE-----
